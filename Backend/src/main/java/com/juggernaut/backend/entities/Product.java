@@ -13,7 +13,7 @@ import java.util.Date;
 @Entity
 @Table(name = "product")
 @Data
-public class Products implements Serializable {
+public class Product implements Serializable {
 
 
     @Serial
