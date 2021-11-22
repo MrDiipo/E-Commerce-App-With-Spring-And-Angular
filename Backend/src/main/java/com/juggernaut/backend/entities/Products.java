@@ -32,6 +32,10 @@ public class Products implements Serializable {
 //        this.id = id;
 //    }
 
+    @ManyToOne
+    @JoinColumn(name = "category_id", nullable = false)
+    private ProductCategory category;
+
     @Column(name = "sku")
     private String sku;
 
